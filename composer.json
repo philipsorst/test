@@ -1,0 +1,35 @@
+{
+  "name": "philipsorst/test",
+  "type": "library",
+  "description": "Composer test",
+  "keywords": [
+    "test",
+    "composer"
+  ],
+  "homepage": "http://sorst.net",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Philip Sorst",
+      "email": "philip@sorst.net"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "symfony/console": "~2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "suggest": {
+    "dontdrinkandroot/utils": "Because we can"
+  },
+  "autoload": {
+    "psr-0": {"PhilipSorst\\Test\\": "src/"}
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    }
+  }
+}
